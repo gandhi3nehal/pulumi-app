@@ -17,7 +17,7 @@ class MyResources(ComponentResource):
 
 
     def createDynamoTable(self):
-        dynamodb_table = dynamodb.Table('mytable', name="gnehal-table",
+        dynamodb_table = dynamodb.Table('mytable',
             attributes=[
                 {
                     'name': 'key',
